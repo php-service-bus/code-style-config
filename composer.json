@@ -1,0 +1,25 @@
+{
+  "name": "php-service-bus/code-style-config",
+  "description": "PHP Service Bus code style config",
+  "type": "library",
+  "authors": [
+    {
+      "name": "Masiukevich Maksim",
+      "email": "dev@async-php.com",
+      "homepage": "https://github.com/mmasiukevich",
+      "role": "Maintainer"
+    }
+  ],
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "ServiceBus\\CodeStyle\\": "src/"
+    }
+  },
+  "require": {
+    "php": ">=7.2",
+    "friendsofphp/php-cs-fixer": "^2.14"
+  },
+  "prefer-stable": true,
+  "minimum-stability": "dev"
+}
