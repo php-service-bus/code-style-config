@@ -33,7 +33,8 @@ final class Config extends PhpCsFixerConfig
     public function getRules(): array
     {
         return [
-            '@Symfony'                                    => true,
+            '@PSR1'                                       => true,
+            '@PSR2'                                       => true,
             'combine_consecutive_unsets'                  => true,
             'no_unused_imports'                           => true,
             'no_useless_else'                             => true,
@@ -95,6 +96,7 @@ final class Config extends PhpCsFixerConfig
             'class_attributes_separation'                 => ['elements' => ['const', 'method', 'property']],
             'phpdoc_types_order'                          => ['null_adjustment' => 'always_last'],
             'single_line_comment_style'                   => ['comment_types' => ['asterisk']],
+            'multiline_comment_opening_closing'           => true,
             'function_declaration'                        => ['closure_function_spacing' => 'none'],
             'braces'                                      => [
                 'allow_single_line_closure'                   => true,
