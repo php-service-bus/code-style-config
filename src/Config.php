@@ -19,17 +19,11 @@ use PhpCsFixer\Config as PhpCsFixerConfig;
  */
 final class Config extends PhpCsFixerConfig
 {
-    /**
-     * @inheritdoc
-     */
     public function __construct()
     {
         parent::__construct('PHP Service Bus');
     }
 
-    /**
-     * @inheritdoc
-     */
     public function getRules(): array
     {
         return [
