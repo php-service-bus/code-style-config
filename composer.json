@@ -5,7 +5,7 @@
   "authors": [
     {
       "name": "Masiukevich Maksim",
-      "email": "dev@async-php.com",
+      "email": "contacts@desperado.dev",
       "homepage": "https://github.com/mmasiukevich",
       "role": "Maintainer"
     }
@@ -17,8 +17,8 @@
     }
   },
   "require": {
-    "php": ">=8.0",
-    "friendsofphp/php-cs-fixer": "v2.17.*"
+    "php": ">=7.4",
+    "friendsofphp/php-cs-fixer": "v2.18.*"
   },
   "prefer-stable": true,
   "minimum-stability": "dev"
