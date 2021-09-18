@@ -27,7 +27,7 @@ final class Config extends PhpCsFixerConfig
     public function getRules(): array
     {
         return [
-            '@@PSR12'                     => true,
+            '@PSR12'                     => true,
             'braces'                      => [
                 'allow_single_line_closure'                   => true,
                 'position_after_control_structures'           => 'next',
