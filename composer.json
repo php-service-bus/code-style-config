@@ -17,7 +17,7 @@
     }
   },
   "require": {
-    "php": ">=8.1",
+    "php": ">=8.0",
     "friendsofphp/php-cs-fixer": "v3.1.*"
   },
   "prefer-stable": true,
