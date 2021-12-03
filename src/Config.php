@@ -14,9 +14,6 @@ namespace ServiceBus\CodeStyle;
 
 use PhpCsFixer\Config as PhpCsFixerConfig;
 
-/**
- *
- */
 final class Config extends PhpCsFixerConfig
 {
     public function __construct()
