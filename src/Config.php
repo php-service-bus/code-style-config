@@ -24,15 +24,12 @@ final class Config extends PhpCsFixerConfig
     public function getRules(): array
     {
         return [
-            '@@PSR12'                     => true,
+            '@PSR12'                     => true,
             'braces'                      => [
                 'allow_single_line_closure'                   => true,
                 'position_after_control_structures'           => 'next',
                 'position_after_anonymous_constructs'         => 'next',
                 'position_after_functions_and_oop_constructs' => 'next'
-            ],
-            'blank_line_before_statement' => [
-                'statements' => ['continue', 'do', 'die', 'exit', 'goto', 'if', 'return', 'switch', 'throw', 'try']
             ],
             'yoda_style'                  => false
         ];
